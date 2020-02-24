@@ -1,10 +1,11 @@
+
 class Dog
 
-  def name=(name) 
+  def name=(name) #INITIALIZING THE @name instance variable
     @name = name
-  end
+  end #setter 
 
-  def name
+  def name #getter 
     @name
   end
 
