@@ -1,9 +1,12 @@
-class Person
+class Person #creating a Person class
 
-  def name=(name)
+  def name=(name) #this is initializing the instance variable, @name
     @name = name
-  end
-  def name
+  end #this is the SETTER function 
+
+
+
+  def name #THIS THE GETTER FUNCTION 
     @name
   end
 
@@ -15,4 +18,3 @@ class Person
     @job
   end
 end
-
